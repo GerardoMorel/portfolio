@@ -553,3 +553,36 @@ footer .redes-sociales a:hover {
     }
 }
 
+/* --- Acciones (botones idioma/tema) --- */
+.acciones {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#btn-idioma, #btn-tema {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transicion);
+}
+#btn-idioma:hover, #btn-tema:hover {
+  background: white;
+  color: var(--color-primario);
+}
+
+/* --- Dark mode (sobrescribe variables) --- */
+body.dark-mode {
+  --color-primario: #5c80d4;       /* slate-900 */
+  --color-secundario: #60a5fa;     /* blue-400 */
+  --color-acento: #ef4444;         /* red-500 */
+  --color-texto: #e5e7eb;          /* gray-200 */
+  --color-texto-claro: #cbd5e1;    /* slate-300 */
+  --color-fondo: #0b1220;          /* fondo base */
+  --color-fondo-claro: #0f172a;    /* tarjetas/sections */
+}
+
+/* Opcional: dar transparencia al header al hacer scroll ya lo manejas con JS */
