@@ -1,0 +1,555 @@
+/* ANOTACIÓN: Variables CSS para mantener consistencia */
+:root {
+    --color-primario: #2c3e50;
+    --color-secundario: #3498db;
+    --color-acento: #e74c3c;
+    --color-texto: #333;
+    --color-texto-claro: #777;
+    --color-fondo: #f9f9f9;
+    --color-fondo-claro: #fff;
+    --sombra-suave: 0 5px 15px rgba(0,0,0,0.1);
+    --sombra-media: 0 8px 30px rgba(0,0,0,0.15);
+    --transicion: all 0.3s ease;
+}
+
+/* ANOTACIÓN: Reset básico para eliminar márgenes y padding por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    scroll-behavior: smooth;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ANOTACIÓN: Barra de navegación */
+header {
+    background-color: var(--color-primario);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--sombra-suave);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: var(--transicion);
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: var(--color-secundario);
+}
+
+.menu-hamburguesa {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-hamburguesa span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+    transition: var(--transicion);
+}
+
+/* ANOTACIÓN: Sección de héroe/inicio */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, var(--color-primario) 0%, var(--color-secundario) 100%);
+    color: white;
+    margin-top: 70px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+}
+
+.texto-destacado {
+    color: var(--color-acento);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-acento);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: var(--transicion);
+    animation: fadeIn 1.5s ease;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: var(--color-primario);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    background-color: #c0392b;
+}
+
+.btn-pequeno {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+}
+
+/* ANOTACIÓN: Secciones generales */
+.seccion {
+    padding: 100px 0;
+    background-color: var(--color-fondo-claro);
+}
+
+.seccion:nth-child(even) {
+    background-color: var(--color-fondo);
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    font-size: 2.5rem;
+    color: var(--color-primario);
+}
+
+.titulo-seccion::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--color-acento);
+}
+
+/* ANOTACIÓN: Sección sobre mí */
+.sobre-mi-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.sobre-mi-texto p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: var(--color-texto-claro);
+}
+
+.sobre-mi-imagen {
+    text-align: center;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--color-secundario);
+    box-shadow: var(--sombra-media);
+}
+
+/* ANOTACIÓN: Sección de habilidades */
+.habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.habilidad {
+    margin-bottom: 30px;
+}
+
+.info-habilidad {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.barra-habilidad {
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso-habilidad {
+    height: 100%;
+    background-color: var(--color-secundario);
+    border-radius: 10px;
+    transition: width 1s ease;
+    width: 0;
+}
+
+/* ANOTACIÓN: Sección de experiencia */
+.experiencia {
+    display: grid;
+    gap: 40px;
+}
+
+.experiencia-item {
+    background: var(--color-fondo-claro);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: var(--sombra-suave);
+    transition: var(--transicion);
+}
+
+.experiencia-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--sombra-media);
+}
+
+.experiencia-titulo {
+    font-size: 1.5rem;
+    color: var(--color-primario);
+    margin-bottom: 10px;
+}
+
+.experiencia-subtitulo {
+    font-size: 1.1rem;
+    color: var(--color-secundario);
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.experiencia-fecha {
+    color: var(--color-texto-claro);
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.experiencia-descripcion {
+    color: var(--color-texto-claro);
+}
+
+/* ANOTACIÓN: Sección de proyectos */
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.proyecto {
+    background-color: var(--color-fondo-claro);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--sombra-suave);
+    transition: var(--transicion);
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--sombra-media);
+}
+
+.proyecto-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.proyecto-info {
+    padding: 20px;
+}
+
+.proyecto-info h3 {
+    margin-bottom: 10px;
+    color: var(--color-primario);
+}
+
+.proyecto-info p {
+    color: var(--color-texto-claro);
+    margin-bottom: 15px;
+}
+
+/* ANOTACIÓN: Sección de contacto */
+.contacto-contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.info-contacto h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--color-primario);
+}
+
+.info-contacto p {
+    margin-bottom: 20px;
+    color: var(--color-texto-claro);
+}
+
+.detalle-contacto {
+    margin-top: 30px;
+}
+
+.detalle-contacto p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.detalle-contacto i {
+    margin-right: 10px;
+    color: var(--color-secundario);
+    width: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.red-social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--color-primario);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: var(--transicion);
+}
+
+.red-social:hover {
+    background: var(--color-secundario);
+    transform: translateY(-3px);
+}
+
+.formulario-contacto {
+    display: grid;
+    gap: 20px;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-formulario label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--color-primario);
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+    transition: var(--transicion);
+}
+
+.campo-formulario input:focus,
+.campo-formulario textarea:focus {
+    border-color: var(--color-secundario);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* ANOTACIÓN: Footer */
+footer {
+    background-color: var(--color-primario);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .redes-sociales {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer .redes-sociales a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: var(--transicion);
+    text-decoration: none;
+}
+
+footer .redes-sociales a:hover {
+    color: var(--color-secundario);
+}
+
+/* ANOTACIÓN: Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ANOTACIÓN: Media queries para responsive */
+@media (max-width: 992px) {
+    .sobre-mi-contenido,
+    .contacto-contenido {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background-color: var(--color-primario);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transicion);
+        z-index: 999;
+    }
+
+    .menu.activo {
+        left: 0;
+    }
+
+    .menu li {
+        margin: 20px 0;
+    }
+
+    .menu-hamburguesa {
+        display: flex;
+    }
+    
+    .menu-hamburguesa.activo span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .menu-hamburguesa.activo span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-hamburguesa.activo span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    
+    .titulo-seccion {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contenedor {
+        width: 95%;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .proyectos {
+        grid-template-columns: 1fr;
+    }
+    
+    .btn {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
