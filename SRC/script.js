@@ -196,11 +196,12 @@ const traducciones = {
     // Proyectos
     proyectosTitulo: "Mis Proyectos",
     proyectoCards: [
-      { h3: "Proyecto Desarrollo Web", p: "Sitio web responsivo desarrollado con HTML5, CSS3 y JavaScript.", btn: "Ver en GitHub" },
+      { h3: "Gera's Food Landing Page", p: "Sitio web desarrollado con HTML5, CSS3 y JavaScript. Proyecto personal orientado al diseño UI/UX Responsivo.", btn: "Ver en GitHub" },
       { h3: "Aplicación React", p: "Aplicación web moderna desarrollada con React.js.", btn: "Ver en GitHub" },
       { h3: "Optimización SEO", p: "Proyecto de optimización para motores de búsqueda.", btn: "Ver en GitHub" }
     ],
-    verTodos: "Ver todos mis proyectos",
+    verTodos: "Ver Código Fuente",
+    verSitio: "Ver Sitio",
     // Contacto
     contactoTitulo: "Contacto",
     hablemos: "¡Hablemos!",
@@ -239,11 +240,12 @@ const traducciones = {
     ],
     proyectosTitulo: "My Projects",
     proyectoCards: [
-      { h3: "Web Development Project", p: "Responsive website built with HTML5, CSS3 and JavaScript.", btn: "View on GitHub" },
+      { h3: "Gera's Food Landing Page", p: "Website developed with HTML5, CSS3, and JavaScript. Personal project focused on responsive UI/UX design.", btn: "View Site" },
       { h3: "React App", p: "Modern web app built with React.js.", btn: "View on GitHub" },
       { h3: "SEO Optimization", p: "Search engine optimization project.", btn: "View on GitHub" }
     ],
-    verTodos: "See all my projects",
+    verTodos: "View Source Code",
+    verSitio: "View Site",
     contactoTitulo: "Contact",
     hablemos: "Let's talk!",
     contactoTexto: "If you have a project in mind or just want to say hi, feel free to reach out.",
@@ -279,11 +281,12 @@ const traducciones = {
     ],
     proyectosTitulo: "Meus Projetos",
     proyectoCards: [
-      { h3: "Projeto de Desenvolvimento Web", p: "Site responsivo com HTML5, CSS3 e JavaScript.", btn: "Ver no GitHub" },
+      { h3: "Gera's Food Landing Page", p: "Site desenvolvido com HTML5, CSS3 e JavaScript. Projeto pessoal voltado para o design UI/UX responsivo.", btn: "Ver no GitHub" },
       { h3: "Aplicativo React", p: "Aplicação web moderna em React.js.", btn: "Ver no GitHub" },
       { h3: "Otimização de SEO", p: "Projeto de otimização para mecanismos de busca.", btn: "Ver no GitHub" }
     ],
-    verTodos: "Ver todos os meus projetos",
+    verTodos: "Ver Código-Fonte",
+    verSitio: "Ver Site",
     contactoTitulo: "Contato",
     hablemos: "Vamos conversar!",
     contactoTexto: "Se você tem um projeto em mente ou só quer dizer oi, fale comigo.",
@@ -372,7 +375,8 @@ function aplicarTraduccion(lang) {
   }
   const verTodosBtn = document.querySelector('#proyectos a.btn[href*="github"]');
   if (verTodosBtn) verTodosBtn.textContent = t.verTodos;
-
+  const verSitioBtn = document.querySelector('#proyectos a.btn-ver-sitio');
+  if (verSitioBtn) verSitioBtn.textContent = t.verSitio;
   // Contacto
   setText('#contacto .titulo-seccion', t.contactoTitulo);
   setText('#contacto .info-contacto h3', t.hablemos);
