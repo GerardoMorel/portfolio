@@ -197,7 +197,7 @@ const traducciones = {
     proyectosTitulo: "Mis Proyectos",
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Sitio web desarrollado con HTML5, CSS3 y JavaScript. Proyecto personal orientado al diseño UI/UX Responsivo.", btn: "Ver en GitHub" },
-      { h3: "Aplicación React", p: "Aplicación web moderna desarrollada con React.js.", btn: "Ver en GitHub" },
+      { h3: "CV Web Interactivo", p: "CV web responsive con diseño moderno, sidebar interactiva y optimización de accesibilidad.", btn: "Ver en GitHub" },
       { h3: "Optimización SEO", p: "Proyecto de optimización para motores de búsqueda.", btn: "Ver en GitHub" }
     ],
     verTodos: "Ver Código Fuente",
@@ -241,7 +241,7 @@ const traducciones = {
     proyectosTitulo: "My Projects",
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Website developed with HTML5, CSS3, and JavaScript. Personal project focused on responsive UI/UX design.", btn: "View Site" },
-      { h3: "React App", p: "Modern web app built with React.js.", btn: "View on GitHub" },
+      { h3: "Interactive Web CV", p: "Responsive web CV with modern design, interactive sidebar, and accessibility optimization.", btn: "View on GitHub" },
       { h3: "SEO Optimization", p: "Search engine optimization project.", btn: "View on GitHub" }
     ],
     verTodos: "View Source Code",
@@ -282,7 +282,7 @@ const traducciones = {
     proyectosTitulo: "Meus Projetos",
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Site desenvolvido com HTML5, CSS3 e JavaScript. Projeto pessoal voltado para o design UI/UX responsivo.", btn: "Ver no GitHub" },
-      { h3: "Aplicativo React", p: "Aplicação web moderna em React.js.", btn: "Ver no GitHub" },
+      { h3: "CV Web Interativo", p: "CV web responsivo com design moderno, barra lateral interativa e otimização de acessibilidade.", btn: "Ver no GitHub" },
       { h3: "Otimização de SEO", p: "Projeto de otimização para mecanismos de busca.", btn: "Ver no GitHub" }
     ],
     verTodos: "Ver Código-Fonte",
