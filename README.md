@@ -6,6 +6,6 @@ Incluye mi landing page “Gera’s Food” y secciones de contacto, experiencia
 
 ### 🧩 CV Web Interactivo
 Versión online de mi currículum con diseño moderno, accesible y responsive.
-🔗 [Ver sitio](https://github.com/GerardoMorel/cv-geramorel/))  
-💻 [Ver código](https://gerardomorel.github.io/cv-geramorel/))
+🔗 [Ver sitio](https://gerardomorel.github.io/cv-geramorel/)  
+💻 [Ver código](https://github.com/GerardoMorel/cv-geramorel/)
 
