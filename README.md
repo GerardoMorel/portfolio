@@ -1,4 +1,4 @@
-# 🌐 Portfolio Web — Gerardo Morel
+<img width="1853" height="883" alt="imagen" src="https://github.com/user-attachments/assets/1d0002a1-c44a-4e97-a5f3-887f2411302d" /># 🌐 Portfolio Web — Gerardo Morel
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
@@ -40,12 +40,12 @@
 
 📂 Estructura del proyecto
 
-portfolio/
-├── SRC/
-│   ├── index.html
-│   ├── styles/
-│   └── assets/
-└── README.md
+portfolio/<br>
+├── SRC/<br>
+│   ├── index.html<br>
+│   ├── styles/<br>
+│   └── assets/<br>
+└── README.md<br>
 
 🚀 Futuras mejoras:
   - Migración del portfolio a React + Vite.
@@ -60,4 +60,5 @@ portfolio/
 
 📄 Licencia:
   - Este proyecto está bajo la licencia MIT — libre para usar y modificar.
+
 
