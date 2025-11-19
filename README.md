@@ -1,19 +1,55 @@
-<<<<<<< HEAD
-## Portfolio de Gerardo Morel
-Proyecto personal que muestra mis habilidades como desarrollador web frontend.  
-Incluye mi landing page “Gera’s Food” y secciones de contacto, experiencia y proyectos.
+📌 Portfolio de Gerardo Morel
 
-🔗 Ver en vivo: [https://gerardomorel.github.io/portfolio](https://gerardomorel.github.io/portfolio)
-=======
-## Portfolio de Gerardo Morel
-Proyecto personal que muestra mis habilidades como desarrollador web frontend.  
-Incluye mi landing page “Gera’s Food” y secciones de contacto, experiencia y proyectos.
+🚀 Desarrollador Web Frontend
 
-🔗 Ver en vivo: [https://gerardomorel.github.io/portfolio](https://gerardomorel.github.io/portfolio)
+🌐 Demo en vivo
 
-### 🧩 CV Web Interactivo
-Versión online de mi currículum con diseño moderno, accesible y responsive.
-🔗 [Ver sitio](https://gerardomorel.github.io/cv-geramorel/)  
-💻 [Ver código](https://github.com/GerardoMorel/cv-geramorel/)
+🔗 https://gerardomorel.github.io/portfolio
 
->>>>>>> 8feb559a128ec25e50b387a302672935d733da5d
+📖 Descripción del proyecto
+
+Este portfolio es mi proyecto personal diseñado para presentar mis habilidades como desarrollador web frontend.
+Incluye mi experiencia, proyectos destacados, información de contacto y una landing page adicional llamada “Gera’s Food”.
+
+El sitio está desarrollado con un enfoque en diseño responsivo, accesibilidad, optimización SEO y buenas prácticas de estructura HTML + CSS + JavaScript.
+
+🛠️ Tecnologías utilizadas
+
+  | Tecnología       | Uso                                                     |
+  | ---------------- | ------------------------------------------------------- |
+  | **HTML5**        | Estructura semántica y SEO básico                       |
+  | **CSS3**         | Maquetación, responsive design y estilos personalizados |
+  | **JavaScript**   | Interactividad y navegación dinámica                    |
+  | **GitHub Pages** | Hosting del proyecto                                    |
+
+✨ Características principales:
+
+  📱 Diseño responsivo y adaptable para todas las pantallas.
+  ⚡ Carga rápida y optimización básica de recursos.
+  🎨 Estética limpia y moderna, con buena legibilidad.
+  🗂️ Sección de proyectos destacados, incluyendo demos y repositorios.
+  🍽️ Landing Page adicional “Gera’s Food” incluida dentro del portfolio.
+  🔗 Enlaces a redes profesionales (GitHub, LinkedIn, YouTube).
+
+📂 Estructura del proyecto
+
+portfolio/
+├── SRC/
+│   ├── index.html
+│   ├── styles/
+│   └── assets/
+└── README.md
+
+🚀 Futuras mejoras:
+  - Migración del portfolio a React + Vite.
+  - Versión empaquetada con Electron para escritorio.
+  - Agregar modo oscuro.
+  - Añadir animaciones suaves con GSAP o Framer Motion.
+
+👨‍💻 Autor:
+    Gerardo Morel
+    Desarrollador Web Frontend
+    🌐 GitHub: https://github.com/GerardoMorel
+
+📄 Licencia:
+  - Este proyecto está bajo la licencia MIT — libre para usar y modificar.
