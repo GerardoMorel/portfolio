@@ -40,12 +40,12 @@
 
 📂 Estructura del proyecto
 
-portfolio/<br>
-├── SRC/<br>
-│   ├── index.html<br>
-│   ├── styles/<br>
-│   └── assets/<br>
-└── README.md<br>
+portfolio/ <br>
+├── SRC/ <br>
+│   ├── index.html <br>
+│   ├── styles/ <br>
+│   └── assets/ <br>
+└── README.md <br>
 
 🚀 Futuras mejoras:
   - Migración del portfolio a React + Vite.
@@ -60,6 +60,7 @@ portfolio/<br>
 
 📄 Licencia:
   - Este proyecto está bajo la licencia MIT — libre para usar y modificar.
+
 
 
 
