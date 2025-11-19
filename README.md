@@ -1,4 +1,12 @@
-📌 Portfolio de Gerardo Morel
+# 🌐 Portfolio Web — Gerardo Morel
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)
 
 🚀 Desarrollador Web Frontend
 
@@ -6,12 +14,11 @@
 
 🔗 https://gerardomorel.github.io/portfolio
 
-📖 Descripción del proyecto
+📖 Descripción del proyecto   
 
-Este portfolio es mi proyecto personal diseñado para presentar mis habilidades como desarrollador web frontend.
-Incluye mi experiencia, proyectos destacados, información de contacto y una landing page adicional llamada “Gera’s Food”.
-
-El sitio está desarrollado con un enfoque en diseño responsivo, accesibilidad, optimización SEO y buenas prácticas de estructura HTML + CSS + JavaScript.
+  Este portafolio es mi proyecto personal diseñado para presentar mis habilidades como desarrollador web frontend. 
+  Incluye mi experiencia, proyectos destacados, información de contacto y una landing page adicional llamada **“Gera’s Food”**.
+  El sitio está desarrollado con enfoque en diseño responsivo, accesibilidad, optimización SEO y buenas prácticas de estructura HTML + CSS + JavaScript.
 
 🛠️ Tecnologías utilizadas
 
@@ -47,9 +54,10 @@ portfolio/
   - Añadir animaciones suaves con GSAP o Framer Motion.
 
 👨‍💻 Autor:
-    Gerardo Morel
+    **Gerardo Morel**
     Desarrollador Web Frontend
     🌐 GitHub: https://github.com/GerardoMorel
 
 📄 Licencia:
   - Este proyecto está bajo la licencia MIT — libre para usar y modificar.
+
