@@ -42,9 +42,9 @@
 
 portfolio/ <br>
 ├── SRC/ <br>
-│   ├── index.html <br>
-│   ├── styles/ <br>
-│   └── assets/ <br>
+├── index.html <br>
+├── styles/ <br>
+└── assets/ <br>
 └── README.md <br>
 
 🚀 Futuras mejoras:
@@ -60,6 +60,7 @@ portfolio/ <br>
 
 📄 Licencia:
   - Este proyecto está bajo la licencia MIT — libre para usar y modificar.
+
 
 
 
