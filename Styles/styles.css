@@ -614,7 +614,51 @@ body.dark-mode {
 .vite {
     display: inline-block;
     background: hwb(59 20% 11%);
+    color: #000000;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.html {
+    display: inline-block;
+    background: #e34c26;
     color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.css {
+    display: inline-block;
+    background: #264de4;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.js {
+    display: inline-block;
+    background: #f0db4f;
+    color: #000000;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.uiux {
+    display: inline-block;
+    background: #61dafb;
+    color: #1d1b9f;
     padding: 4px 10px;
     border-radius: 999px;
     font-size: 0.75rem;
