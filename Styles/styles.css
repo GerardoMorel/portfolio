@@ -589,9 +589,31 @@ body.dark-mode {
     margin: 8px 0 10px;
 }
 
-.tag {
+.electron {
     display: inline-block;
-    background: #2a2f3a;
+    background: hsl(221, 83%, 55%);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.node {
+    display: inline-block;
+    background: hwb(128 14% 24%);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
+
+.vite {
+    display: inline-block;
+    background: hwb(59 20% 11%);
     color: #fff;
     padding: 4px 10px;
     border-radius: 999px;
