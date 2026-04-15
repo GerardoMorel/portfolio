@@ -198,7 +198,8 @@ const traducciones = {
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Sitio web desarrollado con HTML5, CSS3 y JavaScript. Proyecto personal orientado al diseño UI/UX Responsivo.", btn: "Ver en GitHub" },
       { h3: "CV Web Interactivo", p: "CV web responsive con diseño moderno, sidebar interactiva y optimización de accesibilidad.", btn: "Ver en GitHub" },
-      { h3: "Drawing a Little", p: "Sitio web artístico diseñado para compartir ilustraciones, miniaturas estilo artesanal, modo claro/oscuro, sidebar animada y una galería de videos. Proyecto visual y escalable.", btn: "Ver en GitHub" }
+      { h3: "Drawing a Little", p: "Sitio web artístico diseñado para compartir ilustraciones, miniaturas estilo artesanal, modo claro/oscuro, sidebar animada y una galería de videos. Proyecto visual y escalable.", btn: "Ver en GitHub" },
+      {h3: "Quimera", p: "Aplicación de escritorio desarrollada con Electron para explorar bibliotecas multimedia locales con carpetas visuales, previews dinámicos y miniaturas generadas automáticamente", btn: "Ver Código"}
     ],
     verTodos: "Ver Código Fuente",
     verSitio: "Ver Sitio",
@@ -242,7 +243,8 @@ const traducciones = {
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Website developed with HTML5, CSS3, and JavaScript. Personal project focused on responsive UI/UX design.", btn: "View Site" },
       { h3: "Interactive Web CV", p: "Responsive web CV with modern design, interactive sidebar, and accessibility optimization.", btn: "View on GitHub" },
-      { h3: "Drawing a Little", p: "Artistic website designed for sharing illustrations, handcrafted miniatures, light/dark mode, animated sidebar, and a video gallery. Visual and scalable project.", btn: "View Site" }
+      { h3: "Drawing a Little", p: "Artistic website designed for sharing illustrations, handcrafted miniatures, light/dark mode, animated sidebar, and a video gallery. Visual and scalable project.", btn: "View Site" },
+      {h3: "Quimera", p: "Desktop application built with Electron to explore local multimedia libraries through visual folders, dynamic previews, and automatically generated thumbnails.", btn: "View Code"}
     ],
     verTodos: "View Source Code",
     verSitio: "View Site",
@@ -283,7 +285,8 @@ const traducciones = {
     proyectoCards: [
       { h3: "Gera's Food Landing Page", p: "Site desenvolvido com HTML5, CSS3 e JavaScript. Projeto pessoal voltado para o design UI/UX responsivo.", btn: "Ver no GitHub" },
       { h3: "CV Web Interativo", p: "CV web responsivo com design moderno, barra lateral interativa e otimização de acessibilidade.", btn: "Ver no GitHub" },
-      { h3: "Drawing a Little", p: "Site artístico projetado para compartilhar ilustrações, miniaturas em estilo artesanal, modo claro/escuro, barra lateral animada e uma galeria de vídeos. Projeto visual e escalável.", btn: "Ver no GitHub" }
+      { h3: "Drawing a Little", p: "Site artístico projetado para compartilhar ilustrações, miniaturas em estilo artesanal, modo claro/escuro, barra lateral animada e uma galeria de vídeos. Projeto visual e escalável.", btn: "Ver no GitHub" },
+      {h3: "Quimera", p: "Aplicativo desktop desenvolvido com Electron para explorar bibliotecas multimídia locais com pastas visuais, previews dinâmicos e miniaturas geradas automaticamente.", btn: "Ver Código"}
     ],
     verTodos: "Ver Código-Fonte",
     verSitio: "Ver Site",

@@ -585,4 +585,17 @@ body.dark-mode {
   --color-fondo-claro: #0f172a;    /* tarjetas/sections */
 }
 
+.tags {
+    margin: 8px 0 10px;
+}
 
+.tag {
+    display: inline-block;
+    background: #2a2f3a;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    margin-right: 6px;
+    opacity: 0.9;
+}
