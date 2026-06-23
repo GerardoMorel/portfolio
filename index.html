@@ -1,339 +1,587 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerardo Morel - Desarrollador Web</title>
-    <link rel="stylesheet" href="Styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <!-- Barra de navegación -->
-    <header>
-        <div class="contenedor">
-            <nav>
-                <div class="logo">Gerardo Morel</div>
-                <ul class="menu">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobre-mi">Sobre Mí</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#experiencia">Experiencia</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gerardo Morel - Desarrollador Web</title>
+        <link rel="stylesheet" href="Styles/styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <header>
+            <div class="contenedor">
+                <nav>
+                    <div class="logo">Gerardo Morel</div>
+                    <ul class="menu">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
 
-                <div class="acciones">
-                    <button id="btn-idioma" class="btn btn-outline" aria-label="Cambiar idioma">ES</button>
-                    <button id="btn-tema" class="btn btn-outline" aria-label="Cambiar tema">🌙</button>
+                    <div class="acciones">
+                        <button
+                            id="btn-idioma"
+                            class="btn btn-outline"
+                            aria-label="Cambiar idioma"
+                        >
+                            ES
+                        </button>
+                        <button
+                            id="btn-tema"
+                            class="btn btn-outline"
+                            aria-label="Cambiar tema"
+                        >
+                            🌙
+                        </button>
+                    </div>
+
+                    <div class="menu-hamburguesa">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Sección de inicio/hero -->
+        <section id="inicio" class="hero">
+            <div class="contenedor">
+                <div class="hero-content">
+                    <h1>
+                        Hola, soy
+                        <span class="texto-destacado">Gerardo Morel</span>
+                    </h1>
+                    <p>Desarrollador Web & Técnico Informático</p>
+                    <div>
+                        <a href="#proyectos" class="btn">Ver mis proyectos</a>
+                        <a href="#contacto" class="btn btn-outline"
+                            >Contactarme</a
+                        >
+                    </div>
                 </div>
+            </div>
+        </section>
 
-
-                <div class="menu-hamburguesa">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <!-- Sección sobre mí -->
+        <section id="sobre-mi" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Sobre Mí</h2>
+                <div class="sobre-mi-contenido">
+                    <div class="sobre-mi-texto">
+                        <p>
+                            Soy una persona proactiva, organizada y responsable
+                            con excelentes habilidades interpersonales. Me
+                            destaco por mi firme compromiso con el cumplimiento
+                            de mis obligaciones de forma eficiente y
+                            profesional.
+                        </p>
+                        <p>
+                            Busco un puesto estimulante en el que pueda seguir
+                            desarrollando mis habilidades, crecer
+                            profesionalmente y contribuir al éxito de la
+                            organización.
+                        </p>
+                        <p>
+                            Además de desarrollo web, tengo conocimientos en
+                            SEO, Marketing digital, embudos de ventas,
+                            modificación de CTR y palabras clave en dominios
+                            WEB.
+                        </p>
+                        <a href="#contacto" class="btn">Contactarme</a>
+                    </div>
+                    <div class="sobre-mi-imagen">
+                        <img
+                            src="SRC/Imagen_p_portfolio 2.1.png"
+                            alt="Gerardo Morel"
+                            class="avatar"
+                        />
+                    </div>
                 </div>
-            </nav>
-        </div>
-    </header>
+            </div>
+        </section>
 
-    <!-- Sección de inicio/hero -->
-    <section id="inicio" class="hero">
-        <div class="contenedor">
-            <div class="hero-content">
-                <h1>Hola, soy <span class="texto-destacado">Gerardo Morel</span></h1>
-                <p>Desarrollador Web & Técnico Informático</p>
+        <!-- Sección de habilidades -->
+        <section id="habilidades" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Mis Habilidades</h2>
+                <div class="habilidades">
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>HTML5/CSS3</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="85"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="80"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>React.js</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="75"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>SEO/Marketing Digital</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="70"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>Ofimática</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="90"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <div class="info-habilidad">
+                            <span>Redes Informáticas</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="barra-habilidad">
+                            <div
+                                class="progreso-habilidad"
+                                data-progreso="80"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de experiencia -->
+        <section id="experiencia" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Experiencia Laboral</h2>
+                <div class="experiencia">
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">Desarrollador Web</h3>
+                        <h4 class="experiencia-subtitulo">Freelance</h4>
+                        <p class="experiencia-fecha">2020 - Presente</p>
+                        <p class="experiencia-descripcion">
+                            Trabajando en proyectos freelancer de desarrollo
+                            web, utilizando conocimientos en HTML5, CSS3,
+                            JavaScript y React.js.
+                        </p>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">
+                            Asistente Administrativo
+                        </h3>
+                        <h4 class="experiencia-subtitulo">Remotask</h4>
+                        <p class="experiencia-fecha">2020 - Presente</p>
+                        <p class="experiencia-descripcion">
+                            Realizando tareas administrativas con diferentes
+                            suites de Ofimática, como Microsoft Office, Google
+                            Sheets, Libre Office, etc.
+                        </p>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">Supervisor de Zona</h3>
+                        <h4 class="experiencia-subtitulo">SONDA Argentina</h4>
+                        <p class="experiencia-fecha">2018 - 2019</p>
+                        <p class="experiencia-descripcion">
+                            Realizando tareas de instalación de pisos
+                            tecnológicos, contratación de personal, diagramación
+                            de redes informáticas y supervisión de su estado y
+                            funcionamiento.
+                        </p>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">Técnico Informático</h3>
+                        <h4 class="experiencia-subtitulo">
+                            Seguridad Misiones
+                        </h4>
+                        <p class="experiencia-fecha">2017 - 2018</p>
+                        <p class="experiencia-descripcion">
+                            Cumpliendo funciones de reparación, instalación de
+                            alarmas y CCTV (Circuito Cerrado de Televisión).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de educación -->
+        <section id="formacion" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Formación Académica</h2>
+                <div class="experiencia">
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">Autodidacta</h3>
+                        <p class="experiencia-fecha">2020 - Presente</p>
+                        <p class="experiencia-descripcion">
+                            Desarrollo web con conocimientos en HTML, CSS,
+                            Javascript y React.js. Además de contar con
+                            conocimientos en SEO y Marketing digital.
+                        </p>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">
+                            Facultad de Ingeniería de Misiones UNAM
+                        </h3>
+                        <p class="experiencia-fecha">2006 - 2009</p>
+                        <p class="experiencia-descripcion">
+                            Completando el Ciclo básico con conocimientos en
+                            Ingeniería Electrónica.
+                        </p>
+                    </div>
+
+                    <div class="experiencia-item">
+                        <h3 class="experiencia-titulo">
+                            Colegio "San Francisco"
+                        </h3>
+                        <p class="experiencia-fecha">2000 - 2005</p>
+                        <p class="experiencia-descripcion">
+                            Graduado en Humanidades y Ciencias Sociales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <section id="proyectos" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Mis Proyectos</h2>
+                <div class="proyectos">
+                    <div class="proyecto">
+                        <img
+                            src="SRC/Proyecto_Gerardosfood.png"
+                            alt="Gera's Food Screenshot"
+                            class="proyecto-img"
+                        />
+                        <div class="proyecto-info">
+                            <h3>Gera's Food Landing Page</h3>
+                            <div class="tags">
+                                <span class="html">HTML 5</span>
+                                <span class="css">CSS 3</span>
+                                <span class="js">JavaScript</span>
+                            </div>
+                            <p>
+                                Sitio web desarrollado con HTML5, CSS3 y
+                                JavaScript. Proyecto personal orientado al
+                                diseño UI/UX Responsivo.
+                            </p>
+                            <a
+                                href="https://github.com/GerardoMorel/Gerardo-FOOD-Landing-Page"
+                                class="btn btn-pequeno"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Código</a
+                            >
+                            <a
+                                href="https://gerardomorel.github.io/Gerardo-FOOD-Landing-Page/"
+                                class="btn btn-pequeno btn-ver-sitio"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Sitio</a
+                            >
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img
+                            src="SRC/Miniatura_CV_WEB.png"
+                            alt="CV-web"
+                            class="proyecto-img"
+                        />
+                        <div class="proyecto-info">
+                            <h3>CV Web Interactivo</h3>
+                            <div class="tags">
+                                <span class="html">HTML 5</span>
+                                <span class="css">CSS 3</span>
+                                <span class="js">JavaScript</span>
+                            </div>
+                            <p>
+                                CV web responsive con diseño moderno, sidebar
+                                interactiva y optimización de accesibilidad.
+                            </p>
+                            <a
+                                href="https://github.com/GerardoMorel/cv-geramorel/"
+                                class="btn btn-pequeno"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Código</a
+                            >
+                            <a
+                                href="https://gerardomorel.github.io/cv-geramorel/"
+                                class="btn btn-pequeno btn-ver-sitio"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Sitio</a
+                            >
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img
+                            src="SRC/Proyecto_Drawingalittle.png"
+                            alt="drawing_a_little"
+                            class="proyecto-img"
+                        />
+                        <div class="proyecto-info">
+                            <h3>Drawing a Little</h3>
+                            <div class="tags">
+                                <span class="html">HTML 5</span>
+                                <span class="css">CSS 3</span>
+                                <span class="js">JavaScript</span>
+                                <span class="uiux">UI/UX</span>
+                            </div>
+                            <p>
+                                Sitio web artístico diseñado para compartir
+                                ilustraciones, miniaturas estilo artesanal, modo
+                                claro/oscuro, sidebar animada y una galería de
+                                videos. Proyecto visual y escalable.
+                            </p>
+                            <a
+                                href="https://github.com/GerardoMorel/Mis_Ilustraciones"
+                                class="btn btn-pequeno"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Código</a
+                            >
+                            <a
+                                href="https://gerardomorel.github.io/Mis_Ilustraciones/"
+                                class="btn btn-pequeno btn-ver-sitio"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Ver Sitio</a
+                            >
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img
+                            src="SRC/quimera-thumbnail.png"
+                            alt="Quimera App"
+                            class="proyecto-img"
+                        />
+                        <div class="proyecto-info">
+                            <h3>Quimera</h3>
+                            <div class="tags">
+                                <span class="electron">Electron</span>
+                                <span class="node">Node.js</span>
+                                <span class="vite">Vite</span>
+                            </div>
+                            <p>
+                                Aplicación de escritorio desarrollada con
+                                Electron para explorar bibliotecas multimedia
+                                locales con carpetas visuales, previews
+                                dinámicos y miniaturas generadas
+                                automáticamente.
+                            </p>
+                            <a
+                                href="https://github.com/GerardoMorel/quimera"
+                                class="btn btn-pequeno"
+                                target="_blank"
+                                >Ver Código</a
+                            >
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img
+                            src="SRC/Antares-thumbnail.png"
+                            alt="Antares Radio & IPTV"
+                            class="proyecto-img"
+                        />
+                        <div class="proyecto-info">
+                            <h3>Antares RAdio & IPTV</h3>
+                            <div class="tags">
+                                <span class="electron">Electron</span>
+                                <span class="node">Node.js</span>
+                                <span class="vite">Vite</span>
+                            </div>
+                            <p>
+                                Aplicación de escritorio multiplataforma para la
+                                reproducción de radios públicas del mundo y
+                                listas IPTV personalizadas (.m3u). Cuenta con un
+                                diseño responsivo (Dark UI), manejo de estados y
+                                sistema de favoritos con persistencia de datos
+                                local.
+                            </p>
+                            <a
+                                href="https://github.com/GerardoMorel/antares"
+                                class="btn btn-pequeno"
+                                target="_blank"
+                                >Ver Código</a
+                            >
+                        </div>
+                    </div>
+                </div>
                 <div>
-                    <a href="#proyectos" class="btn">Ver mis proyectos</a>
-                    <a href="#contacto" class="btn btn-outline">Contactarme</a>
+                    <a
+                        href="https://github.com/GerardoMorel"
+                        class="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Ver todos mis proyectos</a
+                    >
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección sobre mí -->
-    <section id="sobre-mi" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Sobre Mí</h2>
-            <div class="sobre-mi-contenido">
-                <div class="sobre-mi-texto">
-                    <p>Soy una persona proactiva, organizada y responsable con excelentes habilidades interpersonales. Me destaco por mi firme compromiso con el cumplimiento de mis obligaciones de forma eficiente y profesional.</p>
-                    <p>Busco un puesto estimulante en el que pueda seguir desarrollando mis habilidades, crecer profesionalmente y contribuir al éxito de la organización.</p>
-                    <p>Además de desarrollo web, tengo conocimientos en SEO, Marketing digital, embudos de ventas, modificación de CTR y palabras clave en dominios WEB.</p>
-                    <a href="#contacto" class="btn">Contactarme</a>
-                </div>
-                <div class="sobre-mi-imagen">
-                    <img src="SRC/Imagen_p_portfolio 2.1.png" alt="Gerardo Morel" class="avatar">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de habilidades -->
-    <section id="habilidades" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Mis Habilidades</h2>
-            <div class="habilidades">
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>HTML5/CSS3</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="85"></div>
-                    </div>
-                </div>
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>JavaScript</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="80"></div>
-                    </div>
-                </div>
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>React.js</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="75"></div>
-                    </div>
-                </div>
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>SEO/Marketing Digital</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="70"></div>
-                    </div>
-                </div>
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>Ofimática</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="90"></div>
-                    </div>
-                </div>
-                <div class="habilidad">
-                    <div class="info-habilidad">
-                        <span>Redes Informáticas</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="barra-habilidad">
-                        <div class="progreso-habilidad" data-progreso="80"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de experiencia -->
-    <section id="experiencia" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Experiencia Laboral</h2>
-            <div class="experiencia">
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Desarrollador Web</h3>
-                    <h4 class="experiencia-subtitulo">Freelance</h4>
-                    <p class="experiencia-fecha">2020 - Presente</p>
-                    <p class="experiencia-descripcion">Trabajando en proyectos freelancer de desarrollo web, utilizando conocimientos en HTML5, CSS3, JavaScript y React.js.</p>
-                </div>
-                
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Asistente Administrativo</h3>
-                    <h4 class="experiencia-subtitulo">Remotask</h4>
-                    <p class="experiencia-fecha">2020 - Presente</p>
-                    <p class="experiencia-descripcion">Realizando tareas administrativas con diferentes suites de Ofimática, como Microsoft Office, Google Sheets, Libre Office, etc.</p>
-                </div>
-                
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Supervisor de Zona</h3>
-                    <h4 class="experiencia-subtitulo">SONDA Argentina</h4>
-                    <p class="experiencia-fecha">2018 - 2019</p>
-                    <p class="experiencia-descripcion">Realizando tareas de instalación de pisos tecnológicos, contratación de personal, diagramación de redes informáticas y supervisión de su estado y funcionamiento.</p>
-                </div>
-                
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Técnico Informático</h3>
-                    <h4 class="experiencia-subtitulo">Seguridad Misiones</h4>
-                    <p class="experiencia-fecha">2017 - 2018</p>
-                    <p class="experiencia-descripcion">Cumpliendo funciones de reparación, instalación de alarmas y CCTV (Circuito Cerrado de Televisión).</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de educación -->
-    <section id="formacion" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Formación Académica</h2>
-            <div class="experiencia">
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Autodidacta</h3>
-                    <p class="experiencia-fecha">2020 - Presente</p>
-                    <p class="experiencia-descripcion">Desarrollo web con conocimientos en HTML, CSS, Javascript y React.js. Además de contar con conocimientos en SEO y Marketing digital.</p>
-                </div>
-                
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Facultad de Ingeniería de Misiones UNAM</h3>
-                    <p class="experiencia-fecha">2006 - 2009</p>
-                    <p class="experiencia-descripcion">Completando el Ciclo básico con conocimientos en Ingeniería Electrónica.</p>
-                </div>
-                
-                <div class="experiencia-item">
-                    <h3 class="experiencia-titulo">Colegio "San Francisco"</h3>
-                    <p class="experiencia-fecha">2000 - 2005</p>
-                    <p class="experiencia-descripcion">Graduado en Humanidades y Ciencias Sociales.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección de proyectos -->
-    <section id="proyectos" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Mis Proyectos</h2>
-            <div class="proyectos">
-                <div class="proyecto">
-                    <img src="SRC/Proyecto_Gerardosfood.png" alt="Gera's Food Screenshot" class="proyecto-img">
-                    <div class="proyecto-info">
-                        <h3>Gera's Food Landing Page</h3>
-                        <div class="tags">
-                            <span class="html">HTML 5</span>
-                            <span class="css">CSS 3</span>
-                            <span class="js">JavaScript</span>
-                        </div>
-                        <p>Sitio web desarrollado con HTML5, CSS3 y JavaScript. Proyecto personal orientado al diseño UI/UX Responsivo.</p>
-                        <a href="https://github.com/GerardoMorel/Gerardo-FOOD-Landing-Page" class="btn btn-pequeno" target="_blank" rel="noopener noreferrer">Ver Código</a>
-                        <a href="https://gerardomorel.github.io/Gerardo-FOOD-Landing-Page/" class="btn btn-pequeno btn-ver-sitio" target="_blank" rel="noopener noreferrer">Ver Sitio</a>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="SRC/Miniatura_CV_WEB.png" alt="CV-web" class="proyecto-img">
-                    <div class="proyecto-info">
-                        <h3>CV Web Interactivo</h3>
-                        <div class="tags">
-                            <span class="html">HTML 5</span>
-                            <span class="css">CSS 3</span>
-                            <span class="js">JavaScript</span>
-                        </div>
-                        <p>CV web responsive con diseño moderno, sidebar interactiva y optimización de accesibilidad.</p>
-                       <a href="https://github.com/GerardoMorel/cv-geramorel/" class="btn btn-pequeno" target="_blank" rel="noopener noreferrer">Ver Código</a>
-                       <a href="https://gerardomorel.github.io/cv-geramorel/" class="btn btn-pequeno btn-ver-sitio" target="_blank" rel="noopener noreferrer">Ver Sitio</a>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="SRC/Proyecto_Drawingalittle.png" alt="drawing_a_little" class="proyecto-img">
-                    <div class="proyecto-info">
-                        <h3>Drawing a Little</h3>
-                        <div class="tags">
-                            <span class="html">HTML 5</span>
-                            <span class="css">CSS 3</span>
-                            <span class="js">JavaScript</span>
-                            <span class="uiux">UI/UX</span>
-                        </div>
+        <!-- Sección de contacto -->
+        <section id="contacto" class="seccion">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <div class="contacto-contenido">
+                    <div class="info-contacto">
+                        <h3>¡Hablemos!</h3>
                         <p>
-                        Sitio web artístico diseñado para compartir ilustraciones,
-                        miniaturas estilo artesanal, modo claro/oscuro, sidebar
-                        animada y una galería de videos. Proyecto visual y escalable.
+                            Si tienes un proyecto en mente o simplemente quieres
+                            saludar, no dudes en contactarme.
                         </p>
-                        <a href="https://github.com/GerardoMorel/Mis_Ilustraciones" class="btn btn-pequeno" target="_blank" rel="noopener noreferrer">Ver Código</a>
-                       <a href="https://gerardomorel.github.io/Mis_Ilustraciones/" class="btn btn-pequeno btn-ver-sitio" target="_blank" rel="noopener noreferrer">Ver Sitio</a>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="SRC/quimera-thumbnail.png" alt="Quimera App" class="proyecto-img">
-                    <div class="proyecto-info">
-                        <h3>Quimera</h3>
-                        <div class="tags">
-                            <span class="electron">Electron</span>
-                            <span class="node">Node.js</span>
-                            <span class="vite">Vite</span>
+
+                        <div class="detalle-contacto">
+                            <p>
+                                <i class="fas fa-phone"></i> +54 376 15 4501854
+                            </p>
+                            <p>
+                                <i class="fas fa-phone"></i> +55 49 92003-6127
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                gerardotrabajoremoto@gmail.com
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                gera.developer27@gmail.com
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Paraiso
+                                SC, Brasil
+                            </p>
                         </div>
-                        <p>
-                        Aplicación de escritorio desarrollada con Electron para explorar
-                        bibliotecas multimedia locales con carpetas visuales, previews
-                        dinámicos y miniaturas generadas automáticamente.
-                        </p>
-                        <a href="https://github.com/GerardoMorel/quimera" 
-                        class="btn btn-pequeno" 
-                        target="_blank">Ver Código</a>
+
+                        <div class="redes-sociales">
+                            <a
+                                href="https://github.com/GerardoMorel"
+                                class="red-social"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="GitHub"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a
+                                href="https://www.instagram.com/gerardo.morel.37"
+                                class="red-social"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Instagram"
+                            >
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/gerardomorel27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7r8QBCxfTp6zO1PAH4wHNA%3D%3D"
+                                class="red-social"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="LinkedIn"
+                            >
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a
+                                href="https://wa.me/5549920036127"
+                                class="red-social"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Whatsapp"
+                            >
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
                     </div>
+                    <form class="formulario-contacto" id="formulario-contacto">
+                        <div class="campo-formulario">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" required />
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required />
+                        </div>
+                        <div class="campo-formulario">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">
+                            Enviar mensaje
+                        </button>
+                    </form>
                 </div>
             </div>
-            <div>
-                <a href="https://github.com/GerardoMorel" class="btn" target="_blank" rel="noopener noreferrer">Ver todos mis proyectos</a>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Sección de contacto -->
-    <section id="contacto" class="seccion">
-        <div class="contenedor">
-            <h2 class="titulo-seccion">Contacto</h2>
-            <div class="contacto-contenido">
-                <div class="info-contacto">
-                    <h3>¡Hablemos!</h3>
-                    <p>Si tienes un proyecto en mente o simplemente quieres saludar, no dudes en contactarme.</p>
-                    
-                    <div class="detalle-contacto">
-                        <p><i class="fas fa-phone"></i> +54 376 15 4501854</p>
-                        <p><i class="fas fa-phone"></i> +55 49 92003-6127</p>
-                        <p><i class="fas fa-envelope"></i> gerardotrabajoremoto@gmail.com</p>
-                        <p><i class="fas fa-envelope"></i> gera.developer27@gmail.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Paraiso SC, Brasil</p>
-                    </div>
-                    
-                    <div class="redes-sociales">
-                        <a href="https://github.com/GerardoMorel" class="red-social" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.instagram.com/gerardo.morel.37" class="red-social" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/gerardomorel27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7r8QBCxfTp6zO1PAH4wHNA%3D%3D" class="red-social" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="https://wa.me/5549920036127" class="red-social" target="_blank" rel="noopener noreferrer" aria-label="Whatsapp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                    </div>
+        <!-- Pie de página -->
+        <footer>
+            <div class="contenedor">
+                <div class="redes-sociales">
+                    <a
+                        href="https://github.com/GerardoMorel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visita mi perfil de Github"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/gerardomorel27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7r8QBCxfTp6zO1PAH4wHNA%3D%3D"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        aria-label="Visita mi perfil de Linkedin"
+                        ><i
+                            class="fab fa-linkedin-in"
+                            rel="noopener noreferrer"
+                            aria-label="Visita mi perfil de LinkedIn"
+                        ></i
+                    ></a>
                 </div>
-                <form class="formulario-contacto" id="formulario-contacto">
-                    <div class="campo-formulario">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" required>
-                    </div>
-                    <div class="campo-formulario">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="campo-formulario">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea id="mensaje" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Enviar mensaje</button>
-                </form>
+                <p>&copy; 2023 Gerardo Morel. Todos los derechos reservados.</p>
             </div>
-        </div>
-    </section>
+        </footer>
 
-    <!-- Pie de página -->
-    <footer>
-        <div class="contenedor">
-            <div class="redes-sociales">
-                <a href="https://github.com/GerardoMorel" target="_blank" rel="noopener noreferrer" aria-label="Visita mi perfil de Github"><i class="fab fa-github" ></i></a>
-                <a href="https://www.linkedin.com/in/gerardomorel27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7r8QBCxfTp6zO1PAH4wHNA%3D%3D" rel="noopener noreferrer" target="_blank" aria-label="Visita mi perfil de Linkedin"><i class="fab fa-linkedin-in" rel="noopener noreferrer" aria-label="Visita mi perfil de LinkedIn"></i></a>
-            </div>
-            <p>&copy; 2023 Gerardo Morel. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-
-    <script src="SRC/script.js"></script>
-</body>
+        <script src="SRC/script.js"></script>
+    </body>
 </html>
